@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <title>Scripting</title> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="all.css">
+        
+        <script src="js/jquery-3.5.0.js"></script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container"> 
+          <br>
+            <div style="background-image:url('jumbotron.jpg');background-size:cover;color:white  " class="jumbotron ">
+                <h1 id="header">Welcome to "To Do List" </h1> <br>
+                <h6>Take your time and get started with javascript... Javascript is a dynamic OOP language used in web... </h6>
+            </div>  
+            <!-- <div class="title">
+                <h3>To-Do-List</h3>
+            </div>
+            <br> -->
+            <div class="container">
+                <div class="row"> 
+                  <div class="col-sm"> 
+                    <h4>Create Task</h4>
+            <form action="#" onsubmit="return Submit()" name="form">
+                <div class="form-row">
+                  
+                  <div class="form-group col-md-6"> 
+                    <label for="email">Full Name :</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                  </div> 
+                  <div class="form-group col-md-6"> 
+                    <label for="surname"> <br></label>
+                    <input type="text" class="form-control" id="surname" placeholder="Surname" required>
+                 </div>  
+                </div>
+                <div class="form-row"> 
+                  <div class="form-group col-md-12"> 
+                    <label for="toDo">Write To Do Task : </label>
+                    <textarea type="text"  class="form-control" id="toDo" placeholder="To Do...." required></textarea>
+                 </div>  
+                </div>   
+                <div class="form-row">
+                  
+                  <div class="form-group col-md-2"> 
+                    <label for="email">Time :</label>
+                    <input style="text-align: center;"  type="number" class="form-control" id="hours" placeholder="HH" required>
+                  </div> 
+                  <div class="form-group col-md-2"> 
+                    <label for="surname"> <br></label>
+                    <input style="text-align: center;"  type="number" class="form-control" id="minutes" placeholder="mm" required>
+                 </div>   
+                </div>
+                <div class="row col-md-6">
+                  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+                
+              </form>
+                  </div>
+                  <div style="text-align: unset !important;padding:1%" class="jumbotron bg-warning col-sm"> 
+                    <h4 >To Do Tasks</h4> 
+                    <ul id="list"> 
+                    </ul> 
+                  </div>
+                </div>
+              </div>
+
+
+        <script src="Utilities.js"></script>
+        <script src="Home.js"></script>
+    </div>
+ 
+    </body>
+</html>
