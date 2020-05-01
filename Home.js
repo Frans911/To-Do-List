@@ -24,9 +24,9 @@ function Submit() {
         let complete = document.createElement('i');
         let erase = document.createElement('i');
 
-        erase.className = 'fas fa-trash';
+        erase.className = 'fas fa-trash fa-lg';
         erase.style.color = '#EF5350';
-        complete.className = 'fas fa-check-circle';
+        complete.className = 'fas fa-check-circle fa-lg';
         complete.style.color = '#4CAF50';
 
  
@@ -50,6 +50,7 @@ function Submit() {
         document.getElementById('minutes').value = ""; 
 
         node.appendChild(complete);
+        node.appendChild(document.createTextNode(` `));
         node.appendChild(document.createTextNode(` `));
         node.appendChild(erase);
         node.appendChild(document.createTextNode(` `));
